@@ -1,0 +1,70 @@
+body{
+	height: 100vh;
+
+	display: grid;
+	place-items: center;
+}
+
+.container{
+	width: 900px;
+}
+
+.nav{
+	background-color: #f1f1f1;
+	border: 1px solid #ccc;
+
+	display: flex;
+
+	padding: 0;
+	margin: 0;
+}
+
+.nav .nav-item{
+	list-style-type: none;
+}
+
+.nav .tablinks{
+	font-size: 16px;
+	border: none;
+
+	padding: 15px 20px;
+	cursor: pointer;
+
+	transition: background-color .3s ease-in;
+}
+
+.nav .tablinks:hover{
+	background-color: #ddd;
+}
+
+.nav .tablinks.active{
+	background-color: #ccc;
+}
+
+.tab-content{
+
+}
+
+.tab-panel{
+	/*display: none;*/
+	border: 1px solid #ccc;
+	border-top: none;
+
+	padding: 5px 15px;
+}
+
+.btn-close{
+	font-size: 30px;
+
+	padding: 0 10px;
+
+	float: right;
+	cursor: pointer;
+
+	transition: all .2s ease-in;
+}
+
+.btn-close:hover{
+	background-color: red;
+	color: #fff;
+}
